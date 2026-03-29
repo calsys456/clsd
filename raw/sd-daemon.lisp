@@ -1,13 +1,13 @@
 (in-package "CLSD/RAW")
 
-(defconstant +sd-emerg+ "<0>")
-(defconstant +sd-alert+ "<1>")
-(defconstant +sd-crit+ "<2>")
-(defconstant +sd-err+ "<3>")
-(defconstant +sd-warning+ "<4>")
-(defconstant +sd-notice+ "<5>")
-(defconstant +sd-info+ "<6>")
-(defconstant +sd-debug+ "<7>")
+(defvar *sd-emerg* "<0>")
+(defvar *sd-alert* "<1>")
+(defvar *sd-crit* "<2>")
+(defvar *sd-err* "<3>")
+(defvar *sd-warning* "<4>")
+(defvar *sd-notice* "<5>")
+(defvar *sd-info* "<6>")
+(defvar *sd-debug* "<7>")
 
 (defconstant +sd-listen-fds-start+ 3)
 
